@@ -10,11 +10,11 @@ export default function Ex7() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex7 - Dashboard Simples</h1>
-      <header>
+      <header className="flex justify-around">
         <h1>Meu Dashboard</h1>
         <button>Sair</button>
       </header>
-      <main>
+      <main className="grid grid-cols-2 mt-20 justify-center xs:grid-cols-1">
         <div>Card 1</div>
         <div>Card 2</div>
         <div>Card 3</div>
