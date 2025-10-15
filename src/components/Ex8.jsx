@@ -16,7 +16,7 @@ export default function Ex8() {
     <section className="flex justify-center items-center mb-12">
       <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center hover:-translate-y-2 hover:shadow-2xl duration-300">
         <div className="text-4xl text-blue-600 mb-4 flex justify-center">
-          <span className="swing">
+          <span className="swing animate-bounce">
           <FaShoppingCart />
           </span>
         </div>
